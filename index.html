@@ -1,0 +1,125 @@
+<header>
+    <h1>Path of Light Yoga Studio</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<h2>Find Your Inner Light</h2>
+<p>
+  <span class="studio">Path of Light Yoga Studio</span> provides all levels of yoga practice in a tranquil, peaceful environment. Whether you are new to yoga or an experienced practitioner, our dedicated instructors can develop a practice to meet your needs. Let your inner light shine at the <span class="studio">Path of Light Yoga Studio.</span>
+</p>
+<ul>
+    <li>Hatha, Vinyasa, and Restorative Yoga classes</li>
+    <li>Drop-ins welcome</li>
+    <li>Mats, blocks, and blankets provided</li>
+    <li>Relax in our Serenity Lounge before or after your class</li>
+</ul>
+<address>
+  <span class="studio">Path of Light Yoga Studio</span><br>
+  612 Serenity Way<br>
+  El Dorado, CA 96162<br>
+  <a href="tel:8885555555">888-555-5555</a>
+</address>
+<footer>
+    <p>Copyright&copy; 2016 Path Of Light Yoga</p>
+    <a href="mailto:jlbarn11@asu.edu">contact@pathoflight.com</a>
+</footer>
+ 
+
+The code below is used in the Module 1 Homework. If you have trouble downloading the file, you can copy and paste the code below into a file you create inside of your repository and name "yoga.css"
+
+Be sure to use all lowercase letters when naming files, and only paste the code into your CSS file, not these comments/instructions above it.
+
+yoga.css below
+
+
+:root{
+  --gray: #F5F5F5;
+  --purple: #3F2860;
+  --green: #9BC1C2;
+}
+
+body{
+  background-color: var(--gray);
+  color: var(--purple);
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header, main, footer{
+  width: 80%;
+  max-width: calc(1000px - 32px);
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header{
+  background-color: var(--green);
+  text-align: center;
+}
+
+h1{
+  margin: 8px 0;
+}
+
+nav{
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  list-style-type: none;
+  padding: 0;
+}
+
+a{
+  display: block;
+  color: var(--purple);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 16px;
+  font-size: 1.25rem;
+}
+
+nav a:hover{
+  background-color: var(--purple);
+  color: var(--gray);
+}
+
+h2{
+  text-align: center;
+}
+
+p, main ul, address{
+  max-width: 65ch;
+  margin: 16px auto;
+}
+
+.studio{
+  font-style: italic;
+  font-weight: 600;
+}
+
+footer{
+  background-color: var(--green);
+  font-style: italic;
+  text-align: center;
+}
